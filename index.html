@@ -36,10 +36,17 @@
 								<li><a href="#intro">About</a></li>
 								<li><a href="#work">Resume</a></li>
 								<li><a href="#about">Projects</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#portfolio">Portfolio</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
+
 							</ul>
 						</nav>
+
+						<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/anfernee-lai/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://chonkershq.itch.io/homerun-miko" target="_blank" class="icon brands fa-itch-io"><span class="label">itch.io</span></a></li>
+									<li><a href="https://github.com/AnferneeLai" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
 					</header>
 
 				<!-- Main -->
@@ -48,6 +55,7 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">About</h2>
+
 								<p style="float: left;"><img src="images/Anfernee_1.jpg" height=637.5px width=478.5px border="1px"></p>
 								<!-- <iframe src="images/Anfernee_1.jpg" style="width: 4000px;height: 800px;border: none;"></iframe> -->
 								<!-- <span class="image main"><img src="images/Anfernee_1.jpg" alt="" /></span> -->
@@ -55,7 +63,7 @@
 								<p style = "margin-left: 500px;">Hello! I'm Anfernee, a UC Santa Cruz CS Game Design graduate interested in developing games 
 									where players encounter feelings they don't quite have the words for. Some of my experience 
 									in game programming include AI, 2D animation, and sound programming. If you’d like to see 
-									some of my work, please take a look at my resume <a href="https://drive.google.com/file/d/11QAcms-LLCMRGxaxq8le00zpxjVGkBg7/view?usp=sharing" target="_blank">here</a>.</p>
+									some of my work, please take a look at my resume <a href="https://drive.google.com/file/d/1kL_wlQ3KmWMCE5chzIS3NCGdkr2OtT8e/view?usp=sharing" target="_blank">here</a>.</p>
 
 								
 
@@ -95,35 +103,93 @@
 									storyboarded the 3 different levels present in the game as well as the narrative beats.</p>
 							</article>
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
+						<!-- Portfolio -->
+							<article id="portfolio">
+								<h2 class="major">Portfolio</h2>
+								<h2 class="project" style = "font-size: 60px"> <u>Menu UI Implementation</u> </h2>
+
+								<ul class="image-list-small">
+								<li>
+									<a style="background-image: url('images/mainmenu1.png');"></a>
+									<div class="details">
+									<h3>Main Menu 10/13/20</h3>
+
+									<p class="image-author">Original main menu screen for Homerun Miko prior to any UI art implementation. Here, I used default Unity canvas UI buttons
+									to create the functionality for the menu.</p>
 									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/anfernee-lai/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://chonkershq.itch.io/homerun-miko" target="_blank" class="icon brands fa-itch-io"><span class="label">itch.io</span></a></li>
-									<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
-									<li><a href="https://github.com/AnferneeLai" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</li>
+								<li>
+									<a style="background-image: url('images/mainmenu2.png');"></a>
+									<div class="details">
+									<h3>Main Menu 6/6/21</h3>
+
+									<p class="image-author">For our 1.0.0 release, I redeveloped the main menu to have more functionality and worked with our UI artist to create sprites for normal, hover, and click for buttons. We also found fonts that fit our game. </p>
+									</div>
+								</li>
+								<li>
+									<a style="background-image: url('images/mainmenu3.png');"></a>
+									<div class="details">
+										<h3>Main Menu 8/17/21</h3>
+
+										<p class="image-author">In release 1.4.0, I reviewed wireframes with my team to consolidate functionality and declutter the screen
+										to enhance the UX. The continue button contains the level select and isn't an available option at the start.</p>
+										</div>
+									</li>
 								</ul>
+
+								<ul class="image-list-medium">
+									<li>
+									<a style="background-image: url('images/button demo.gif');"></a>
+									<div class="details">
+										<h3>Button Demo 8/17/21</h3>
+
+										<p class="image-author">Each button has a normal, hover, and click state that also plays a programmed UI option open, close, or selection sound.                                                   </p><br>
+										</div>
+									</li>
+									<li>
+									<a style="background-image: url('images/volumedemo.gif')"></a>
+									<div class="details">
+										<h3>Settings Demo 8/17/21</h3>
+
+										<p class="image-author">The settings menu is themed around baseball as shown in the volume sliders. I implemented the sliders as well as the buttons below that take you back to different parts of the game.</p>
+										</div>
+									</li>
+								</ul>
+								<br><br>
+								<h2 class="project" style = "font-size: 60px"> <u>Dialogue Box UI and VFX Design</u> </h2>
+
+								<ul class="image-list-medium">
+									<li>
+									<a style="background-image: url('images/dialogueboxdemo.gif');"></a>
+									<div class="details">
+										<h3>Dialogue Box Demo 8/17/21</h3>
+
+										<p class="image-author">Homerun Miko's dialogue is executed using the Yarn Unity package, but all the assets and character pop-ups are done completely by hand. I programmed the functionality for the dialogue box UI and worked with my team to allow for text skipping without missing out on vital in-dialogue triggers. Part of the UI is also hidden during dialogue (as shown in the top left) as the player most likely wouldn't have to view or reset the level while speaking.</p>
+										</div>
+									</li>
+									<li>
+									<a style="background-image: url('images/dialoguevfxdemo.gif')"></a>
+									<div class="details">
+										<h3>Dialogue VFX Demo 8/17/21</h3>
+
+										<p class="image-author">As part of our continued production following our graduation, we worked on giving more life to our dialogue. I expanded our character manager scripting to allow for dynamic changing of character expressions. I also took the static dialogue VFX drawn by our artists and animated them by hand in the Unity engine. I specifically changed the script such that our narrative lead would simply need to add certain keywords to automatically trigger these dialogue cues.</p>
+										</div>
+									</li>
+								</ul>
+
+								<!-- <p style = "margin-left: 450px;">
+									Patchwork Harmony is a 2D puzzle and narrative focused game that I finished in 2019. 
+									It dives into topics of loss and the passing of time through the eyes of a stuffed bunny. 
+									Within my team of 4, I was the primary producer, puzzle designer, and narrative lead.  
+									During the production process, I also helped to program the level functionality and 
+									storyboarded the 3 different levels present in the game as well as the narrative beats.</p> -->
+
+
+								<!-- <h2 class="project"> Character Animation </h2>
+								<h2 class="project"> Enemy AI State Machine</h2> -->
+
+
+								
 							</article>
 
 						<!-- Elements -->
@@ -372,7 +438,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Template by: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright"><!-- &copy; Template by: <a href="https://html5up.net">HTML5 UP</a>. --></p>
 					</footer>
 
 			</div>
